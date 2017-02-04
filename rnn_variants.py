@@ -244,7 +244,7 @@ class SimplifiedLSTMCell(RNNCell):
     (c_prev, m_prev) = state
 
     dtype = inputs.dtype
-    input_size = inputs.get_shape().with_rank(2)[1] # Returns a shape based on self with the given rank.
+    input_size = inputs.get_shape().with_rank(2)[1]
     if input_size.value is None:
       raise ValueError("Could not infer input size from inputs.get_shape()[-1]")
     with vs.variable_scope(scope or "simplified_lstm_cell", initializer=self._initializer) as unit_scope:
@@ -299,7 +299,7 @@ class SimplifiedLSTMCell(RNNCell):
 
       if self._cell_clip is not None:
         # pylint: disable=invalid-unary-operand-type
-        c = clip_ops.clip_by_value(c, -self._cell_clip, self._cell_clip) # Clips tensor values to a specified min and max.
+        c = clip_ops.clip_by_value(c, -self._cell_clip, self._cell_clip)
         # pylint: enable=invalid-unary-operand-type
 
       if self._use_peepholes:
