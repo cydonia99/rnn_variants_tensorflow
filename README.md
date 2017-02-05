@@ -13,16 +13,16 @@ in order to compare their accuracy with standard GRU and LSTM.
 
 # References
 
-* 1. Rafal Jozefowicz, Wojciech Zaremba, Ilya Sutskever,
+1. Rafal Jozefowicz, Wojciech Zaremba, Ilya Sutskever,
      An Empirical Exploration of Recurrent Network Architectures,
      Proceedings of The 32nd International Conference on Machine Learning. [link](http://jmlr.org/proceedings/papers/v37/jozefowicz15.html)
 
-* 2. Klaus Greff, Rupesh Kumar Srivastava, Jan Koutnik, Bas R. Steunebrink, Jurgen Schmidhuber,
+2. Klaus Greff, Rupesh Kumar Srivastava, Jan Koutnik, Bas R. Steunebrink, Jurgen Schmidhuber,
      LSTM: A Search Space Odyssey,
      IEEE transactions on neural networks and learning systems, 2016.
      [arXiv](https://arxiv.org/abs/1503.04069)
 
-* 3. Yuzhen Lu, Fathi M. Salem,
+3. Yuzhen Lu, Fathi M. Salem,
      Simplified Gating in Long Short-term Memory (LSTM) Recurrent Neural Networks,
      [arXiv](https://arxiv.org/abs/1701.03441)
 
